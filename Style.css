@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*************** SLIDE1 HOME */
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(IMAGES/background1.jpg);
+}
+
+h2 a {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.judul span {
+    color: red;
+}
+
+.navigasi {
+    padding: 15px 5%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.25s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.judul-teks {
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+.judul-teks h1 {
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+.judul-teks h1 span {
+    color: chartreuse;
+}
+
+
+
+
+/**************** slide2 ABOUT */
+#about {
+    padding: 80px 0px;
+    color: rgb(255, 211, 211);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutkiri {
+    flex-basis: 35%;
+}
+
+.aboutkiri img {
+    width: 100%;
+}
+
+.aboutkanan {
+    flex-basis: 60%;
+}
+
+.aboutkanan h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.aboutkanan h3 {
+    color: white;
+}
+
+.aboutkanan p {
+    letter-spacing: 1px;
+}
+
+.aboutkanan p span {
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+/**************** slide3 HOBBY */
+.hobby {
+    background: rgb(11, 10, 10);
+    width: 100%;
+    padding: 120px 0px;
+}
+
+.juhob h1 {
+    font-size: 50px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.boxhob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.card1, .card2, .card3 {
+    height: 300px;
+    width: 270px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card1:hover {
+    opacity: 0.75;
+}
+
+.card2:hover {
+    opacity: 0.75;
+}
+
+.card3:hover {
+    opacity: 0.75;
+}
+
+.card1 {
+    background-image: url(images/baca-manga.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card2 {
+    background-image: url(images/denger\ musik.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.card3 {
+    background-image: url(images/sepeda.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.box i {
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    margin: 35px 0px;
+    color: red;
+}
+
+
+
+/************ SLIDE4 KONTAK  */
+
+.kontak {
+    background: black;
+    padding: 50px 0px;
+}
+
+.kontak-kiri {
+    flex-basis: 30%;
+    margin-top: 175px;
+    margin-left: 95px;
+}
+
+.kontak-kiri p {
+    margin-top: 30px;
+}
+
+.kontak-kiri h1 {
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.kontak-kiri p i {
+    color: red;
+    margin-right: 15px;
+    font-size: 35px;
+}
+
+.kontak-kanan {
+    flex-basis: 60%;
+}
+
+.kontak-kanan img {
+    margin-left: 200px;
+}
+
+.sosmed-logo {
+    margin-top: 30px;
+}
+
+.sosmed-logo a {
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 15px;
+    color: white;
+    display: inline-block;
+}
+
+.sosmed-logo a:hover {
+    color: chartreuse;
+}
+
+
+
+/***************** footer slide1 */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: rgb(10, 10, 10);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+footer h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.cpr {
+    position: absolute;
+    color: rgb(163, 161, 161);
+    bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+/******************* SOURCE */
+
+.all {
+    background: rgb(23, 21, 21);
+    text-align: center;
+}
+
+.src {
+    margin-bottom: 40px;
+}
+
+.src h1 {
+    font-size: 45px;
+}
+
+
+
+
+/****************** footer slide2 */
+
+.ftr {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+footer h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.cpr2 {
+    position: absolute;
+    color: rgb(163, 161, 161);
+    bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
