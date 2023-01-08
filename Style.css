@@ -16,7 +16,7 @@ body{
 .header {
     width: 100%;
     height: 100vh;
-    background-image: url(IMAGES/background1.jpg);
+    background-image: url(background1.jpg);
 }
 
 h2 a {
@@ -177,19 +177,19 @@ nav ul li a:hover::after {
 }
 
 .card1 {
-    background-image: url(images/baca-manga.jpg);
+    background-image: url(baca-manga.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .card2 {
-    background-image: url(images/denger\ musik.jpg);
+    background-image: url(denger\ musik.jpg);
     background-size: cover;
     background-position: right;
 }
 
 .card3 {
-    background-image: url(images/sepeda.jpg);
+    background-image: url(sepeda.jpg);
     background-size: cover;
     background-position: right;
 }
